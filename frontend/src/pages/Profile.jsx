@@ -39,7 +39,7 @@ export default function Profile() {
       <div className="pt-24 px-6 max-w-4xl mx-auto pb-16">
         {/* Profile Header */}
         <div className="mb-10 flex items-center gap-6">
-          <div className="w-20 h-20 rounded-2xl bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center text-3xl font-bold">
+          <div className="w-20 h-20 rounded-2xl bg-linear-to-r from-indigo-500 to-purple-500 flex items-center justify-center text-3xl font-bold">
             {user?.name?.charAt(0)?.toUpperCase()}
           </div>
           <div>
